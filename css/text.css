@@ -1,0 +1,207 @@
+/* Global */
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: "Cinzel", Arial, sans-serif;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.title {
+  margin: 4px 0;
+}
+
+/* .page-content {
+  margin: auto;
+} */
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.solid {
+  border-top: 1px solid #fff;
+  width: 100px;
+}
+
+a:hover,
+.card:hover {
+  font-weight: bold;
+}
+
+footer {
+  height: auto;
+  padding-top: 10px;
+  border-top: 1px solid white;
+}
+
+input:focus,
+textarea:focus {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-github:hover,
+.fa-gift:hover {
+  opacity: 0.6;
+}
+
+/* Home Page */
+
+#home-content h6 {
+  padding-top: 1rem;
+}
+
+/* About Page */
+
+/* Paintings/Drawings/Archives Page */
+
+#artwork {
+  margin: auto;
+  padding: 5rem 0;
+  text-decoration: none;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+/* Newsletter Page */
+
+form,
+#contact-container {
+  background-color: #f1d592;
+  border: 1px solid #000;
+  height: auto;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form-intro {
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.form-button {
+  margin: auto;
+  width: 90px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* Contact Page */
+
+.icons {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-github,
+.fa-linkedin,
+.fa-gift {
+  color: #666;
+}
+
+textarea {
+  height: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Modals */
+
+.modal-content {
+  -webkit-animation-name: zoom;
+  animation-name: zoom;
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+}
+
+.modal-body img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+#caption {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* Media Queries */
+
+/* @media (max-width: 500px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) and(max-width: 1170px) {
+}
+
+@media (min-width: 1171px) {
+} */
