@@ -66,6 +66,7 @@ textarea:focus {
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-github:hover,
+.fa-linkedin:hover,
 .fa-gift:hover {
   opacity: 0.6;
 }
@@ -130,6 +131,7 @@ form,
 .fa-facebook,
 .fa-instagram,
 .fa-github,
+.fa-linkedin,
 .fa-gift {
   color: #666;
 }
