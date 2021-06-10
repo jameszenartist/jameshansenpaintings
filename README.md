@@ -5,7 +5,7 @@ WIP of my first website/project.
 ![Github License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 Presently, this is my first (static) website that I have built.
-As for the content, I have decided to showcase my career and work as a Classically trained Painter/Artist.
+As for the content, I have decided to showcase my career and work as a Classically trained Painter/Artist. https://github.com/jameszenartist/jameshansenpaintings.git
 
 Eventually, my intentions are to turn this into something that's dynamic with some added features like having a newsletter to sign up to, along with e-commerce capabilities.
 
